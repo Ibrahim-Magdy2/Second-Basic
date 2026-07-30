@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="theme-dark lang-ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> YourBrand | تجربة طعام فاخرة</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button class="scroll-top" aria-label="العودة للأعلى">&#8679;</button>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <strong>مطعم</strong> YourBrand
+      </a>
+      <nav class="main-nav" aria-label="القائمة الرئيسية">
+        <a href="#hero" data-i18n="nav_home">الرئيسية</a>
+        <a href="#features" data-i18n="nav_features">المميزات</a>
+        <a href="#menu" data-i18n="nav_menu">القائمة</a>
+        <a href="#gallery" data-i18n="nav_gallery">المعرض</a>
+        <a href="#contact" data-i18n="nav_contact">اتصل بنا</a>
+      </nav>
+      <div class="header-actions">
+        <button class="toggle-theme" type="button" aria-label="تبديل الوضع">🌙</button>
+        <button class="toggle-lang" type="button" aria-label="English">EN</button>
+        <button class="mobile-menu-toggle" type="button" aria-label="قائمة الهاتف">☰</button>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <a href="#hero" data-i18n="nav_home">الرئيسية</a>
+      <a href="#features" data-i18n="nav_features">المميزات</a>
+      <a href="#menu" data-i18n="nav_menu">القائمة</a>
+      <a href="#gallery" data-i18n="nav_gallery">المعرض</a>
+      <a href="#contact" data-i18n="nav_contact">اتصل بنا</a>
+      <div class="mobile-actions">
+        <button class="toggle-theme" type="button" aria-label="تبديل الوضع">🌙</button>
+        <button class="toggle-lang" type="button" aria-label="English">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section-hero">
+      <div class="hero-slider">
+        <article class="hero-slide active" data-i18n-title="hero_title_1" data-i18n-desc="hero_desc_1" data-i18n-button="hero_button_1">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero_tag">تجربة المذاق الراقي</p>
+            <h1>لن تستمتع بالطعام قبل تجربة YourBrand</h1>
+            <p>مطعم يعتمد على النكهات المحلية والضيافة العالمية ليصنع لحظات لا تُنسى.</p>
+            <a href="#menu" class="button-primary">استكشف القائمة</a>
+          </div>
+        </article>
+        <article class="hero-slide" data-i18n-title="hero_title_2" data-i18n-desc="hero_desc_2" data-i18n-button="hero_button_2">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero_tag">ضيافة فاخرة</p>
+            <h1>أجواء أنيقة ومذاق متفرد</h1>
+            <p>نقدّم أطباقاً مصممة بعناية لتجمع بين التميز والجودة في كل لقمة.</p>
+            <a href="#contact" class="button-primary">احجز طاولتك</a>
+          </div>
+        </article>
+        <article class="hero-slide" data-i18n-title="hero_title_3" data-i18n-desc="hero_desc_3" data-i18n-button="hero_button_3">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="hero_tag">نكهات تتحدث</p>
+            <h1>استمتع بسفرة مميزة في قلب المدينة</h1>
+            <p>صممنا قائمة غنية بالعروض الخاصة والنكهات العصرية لتكون تجربة العشاء فريدة.</p>
+            <a href="#offers" class="button-primary">عرض خاص اليوم</a>
+          </div>
+        </article>
+        <div class="hero-controls">
+          <button class="hero-prev" aria-label="السابق">&#10094;</button>
+          <div class="hero-dots"></div>
+          <button class="hero-next" aria-label="التالي">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="features_label">لماذا تختارنا</span>
+        <h2 data-i18n="features_title">جودة عالية، تجربة فاخرة، خدمة متقنة</h2>
+      </div>
+      <div class="container features-grid">
+        <article class="feature-card">
+          <h3 data-i18n="feature_1_title">مكونات فاخرة</h3>
+          <p data-i18n="feature_1_desc">نستخدم أفضل المكونات الطازجة والمنتقاة لتقديم أطباق مبدعة ولا مثيل لها.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="feature_2_title">تصميم عصري</h3>
+          <p data-i18n="feature_2_desc">تجربة طعام تدمج بين الأناقة والراحة في مساحة ساحرة وحديثة.</p>
+        </article>
+        <article class="feature-card">
+          <h3 data-i18n="feature_3_title">خدمة محترفة</h3>
+          <p data-i18n="feature_3_desc">فريقنا مدرب للتعامل مع الطلبات بعناية وسرعة فائقة لتلبية كل احتياجاتك.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div class="about-text">
+          <span class="section-label" data-i18n="about_label">من نحن</span>
+          <h2 data-i18n="about_title">مطعم يجمع بين التراث والإبداع</h2>
+          <p data-i18n="about_desc">في YourBrand نقدم تجربة طعام متكاملة، تجمع نكهات المنطقة مع اللمسة العصرية. يحرص فريقنا على أن يتلقى كل زائر خدمة مميزة وأن يشعر بأنه في بيتٍ أنيق ودافئ.</p>
+          <ul class="about-list">
+            <li data-i18n="about_point_1">قائمة مبتكرة متجددة</li>
+            <li data-i18n="about_point_2">أجواء راقية وراحة تامة</li>
+            <li data-i18n="about_point_3">تجربة ضيافة فردية</li>
+          </ul>
+          <a href="#contact" class="button-secondary" data-i18n="about_button">تواصل معنا</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=900&q=80" alt="أجواء المطعم" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="stats" class="section stats-section">
+      <div class="container stats-grid">
+        <article class="stat-card">
+          <strong class="stat-number" data-target="120">0</strong>
+          <p data-i18n="stat_1">طبق يومي مُعد بعناية</p>
+        </article>
+        <article class="stat-card">
+          <strong class="stat-number" data-target="15">0</strong>
+          <p data-i18n="stat_2">عروض خاصة فريدة</p>
+        </article>
+        <article class="stat-card">
+          <strong class="stat-number" data-target="10">0</strong>
+          <p data-i18n="stat_3">سنوات من الخبرة</p>
+        </article>
+        <article class="stat-card">
+          <strong class="stat-number" data-target="98">0</strong>
+          <p data-i18n="stat_4">رضا العملاء بنسبة</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="menu" class="section menu-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="menu_label">القائمة</span>
+        <h2 data-i18n="menu_title">اختيار متنوع لكل ذوق</h2>
+      </div>
+      <div class="container menu-controls">
+        <div class="search-group">
+          <input type="search" id="menu-search" placeholder="ابحث في القائمة" data-i18n-placeholder="menu_search_placeholder">
+          <span class="search-icon">🔍</span>
+        </div>
+        <div class="category-filter">
+          <button class="category-button active" data-category="all" data-i18n="category_all">الكل</button>
+          <button class="category-button" data-category="grill" data-i18n="category_grill">مشاوي</button>
+          <button class="category-button" data-category="salads" data-i18n="category_salads">سلطات</button>
+          <button class="category-button" data-category="drinks" data-i18n="category_drinks">مشروبات</button>
+          <button class="category-button" data-category="desserts" data-i18n="category_desserts">حلويات</button>
+          <button class="category-button" data-category="fastfood" data-i18n="category_fastfood">وجبات سريعة</button>
+        </div>
+      </div>
+      <div class="container menu-grid" id="menu-items">
+        <article class="menu-item" data-category="grill" data-name="كباب لحم" data-i18n-title="menu_item_1_title" data-i18n-desc="menu_item_1_desc">
+          <div>
+            <h3>كباب لحم</h3>
+            <p>لحم متبل ومشوي على الفحم مع صلصة التتبيلة الخاصة.</p>
+          </div>
+          <strong>250EGP</strong>
+        </article>
+        <article class="menu-item" data-category="grill" data-name="شيش طاووق" data-i18n-title="menu_item_2_title" data-i18n-desc="menu_item_2_desc">
+          <div>
+            <h3>شيش طاووق</h3>
+            <p>قطع دجاج متبلة ومشوية مع لمسات الليمون والقشدة.</p>
+          </div>
+          <strong>98EGP</strong>
+        </article>
+        <article class="menu-item" data-category="grill" data-name="كفتة مشوية" data-i18n-title="menu_item_3_title" data-i18n-desc="menu_item_3_desc">
+          <div>
+            <h3>كفتة مشوية</h3>
+            <p>كفتة لحم طرية تقدم مع خبز ساخن وسلطة طازجة.</p>
+          </div>
+          <strong>105EGP</strong>
+        </article>
+        <article class="menu-item" data-category="salads" data-name="سلطة فتوش" data-i18n-title="menu_item_4_title" data-i18n-desc="menu_item_4_desc">
+          <div>
+            <h3>سلطة فتوش</h3>
+            <p>خضار طازجة وصلصة سماق مميزة مع خبز محمص.</p>
+          </div>
+          <strong>42EGP</strong>
+        </article>
+        <article class="menu-item" data-category="salads" data-name="سلطة تبولة" data-i18n-title="menu_item_5_title" data-i18n-desc="menu_item_5_desc">
+          <div>
+            <h3>سلطة تبولة</h3>
+            <p>برغل، بقدونس، طماطم وزيت زيتون بنكهة منعشة.</p>
+          </div>
+          <strong>44EGP</strong>
+        </article>
+        <article class="menu-item" data-category="drinks" data-name="عصير رمان" data-i18n-title="menu_item_6_title" data-i18n-desc="menu_item_6_desc">
+          <div>
+            <h3>عصير رمان</h3>
+            <p>عصير طبيعي بارد غني بالفيتامينات.</p>
+          </div>
+          <strong>28EGP</strong>
+        </article>
+        <article class="menu-item" data-category="drinks" data-name="قهوة عربية" data-i18n-title="menu_item_7_title" data-i18n-desc="menu_item_7_desc">
+          <div>
+            <h3>قهوة عربية</h3>
+            <p>قهوة عربية أصيلة مع الهيل والزعفران.</p>
+          </div>
+          <strong>22EGP</strong>
+        </article>
+        <article class="menu-item" data-category="desserts" data-name="بقلاوة فاخرة" data-i18n-title="menu_item_8_title" data-i18n-desc="menu_item_8_desc">
+          <div>
+            <h3>بقلاوة فاخرة</h3>
+            <p>شرائح رقائق محشوة بالفستق مع شراب العسل الدافئ.</p>
+          </div>
+          <strong>34EGP</strong>
+        </article>
+        <article class="menu-item" data-category="desserts" data-name="كنافة نابلسية" data-i18n-title="menu_item_9_title" data-i18n-desc="menu_item_9_desc">
+          <div>
+            <h3>كنافة نابلسية</h3>
+            <p>كنافة ذهبية سكرية مع جبن عكاوي أو قشطة.</p>
+          </div>
+          <strong>47EGP</strong>
+        </article>
+        <article class="menu-item" data-category="fastfood" data-name="برغر مشوي" data-i18n-title="menu_item_10_title" data-i18n-desc="menu_item_10_desc">
+          <div>
+            <h3>برغر مشوي</h3>
+            <p>لحم طازج، جبن شيدر، وخبز محمص مع صوص خاص.</p>
+          </div>
+          <strong>78EGP</strong>
+        </article>
+        <article class="menu-item" data-category="fastfood" data-name="تشيكن ستريبس" data-i18n-title="menu_item_11_title" data-i18n-desc="menu_item_11_desc">
+          <div>
+            <h3>تشيكن ستريبس</h3>
+            <p>أصابع دجاج متبلة ومقلية تقدم مع صلصة الثوم.</p>
+          </div>
+          <strong>60EGP</strong>
+        </article>
+        <article class="menu-item" data-category="grill" data-name="لحم بقر مشوي" data-i18n-title="menu_item_12_title" data-i18n-desc="menu_item_12_desc">
+          <div>
+            <h3>لحم بقر مشوي</h3>
+            <p>شريحة لحم بقر مختارة تقدم مع خضار مشوية.</p>
+          </div>
+          <strong>135EGP</strong>
+        </article>
+        <article class="menu-item" data-category="drinks" data-name="ماء توت بري" data-i18n-title="menu_item_13_title" data-i18n-desc="menu_item_13_desc">
+          <div>
+            <h3>ماء توت بري</h3>
+            <p>مزيج منعش من التوت البري والليمون والنعناع.</p>
+          </div>
+          <strong>30EGP</strong>
+        </article>
+        <article class="menu-item" data-category="salads" data-name="سلطة يونانية" data-i18n-title="menu_item_14_title" data-i18n-desc="menu_item_14_desc">
+          <div>
+            <h3>سلطة يونانية</h3>
+            <p>خضار وزيتون وجبن فيتا مع صلصة زيت الزيتون.</p>
+          </div>
+          <strong>52EGP</strong>
+        </article>
+        <article class="menu-item" data-category="fastfood" data-name="بيتزا مارجريتا" data-i18n-title="menu_item_15_title" data-i18n-desc="menu_item_15_desc">
+          <div>
+            <h3>بيتزا مارجريتا</h3>
+            <p>عجينة رقيقة وصلصة طماطم وجبن موزاريلا طازج.</p>
+          </div>
+          <strong>95EGP</strong>
+        </article>
+        <article class="menu-item" data-category="grill" data-name="روبيان مشوي" data-i18n-title="menu_item_16_title" data-i18n-desc="menu_item_16_desc">
+          <div>
+            <h3>روبيان مشوي</h3>
+            <p>روبيان طازج متبل يقدم مع صوص الليمون الزعتر.</p>
+          </div>
+          <strong>125EGP</strong>
+        </article>
+        <article class="menu-item" data-category="desserts" data-name="آيس كريم فانيلا" data-i18n-title="menu_item_17_title" data-i18n-desc="menu_item_17_desc">
+          <div>
+            <h3>آيس كريم فانيلا</h3>
+            <p>آيس كريم فانيليا غني مع قطع شوكولاتة بنكهة الكراميل.</p>
+          </div>
+          <strong>32EGP</strong>
+        </article>
+        <article class="menu-item" data-category="drinks" data-name="شاي نعناع" data-i18n-title="menu_item_18_title" data-i18n-desc="menu_item_18_desc">
+          <div>
+            <h3>شاي نعناع</h3>
+            <p>مزيج منعش من الشاي الأخضر والنعناع الطازج.</p>
+          </div>
+          <strong>24EGP</strong>
+        </article>
+        <article class="menu-item" data-category="salads" data-name="سلطة سيزر" data-i18n-title="menu_item_19_title" data-i18n-desc="menu_item_19_desc">
+          <div>
+            <h3>سلطة سيزر</h3>
+            <p>خس طازج، جبن بارميزان، وقطع خبز محمص مع صوص سيزر.</p>
+          </div>
+          <strong>48EGP</strong>
+        </article>
+        <article class="menu-item" data-category="fastfood" data-name="تندر فرايز" data-i18n-title="menu_item_20_title" data-i18n-desc="menu_item_20_desc">
+          <div>
+            <h3>تندر فرايز</h3>
+            <p>بطاطس مقلية مغطاة بالجبن والتوابل المقرمشة.</p>
+          </div>
+          <strong>36EGP</strong>
+        </article>
+        <article class="menu-item" data-category="grill" data-name="لحم ضأن" data-i18n-title="menu_item_21_title" data-i18n-desc="menu_item_21_desc">
+          <div>
+            <h3>لحم ضأن</h3>
+            <p>شريحة لحم ضأن مشكلة بتوابل العائلة ومشوية بإتقان.</p>
+          </div>
+          <strong>140EGP</strong>
+        </article>
+        <article class="menu-item" data-category="drinks" data-name="كوكتيل فاخر" data-i18n-title="menu_item_22_title" data-i18n-desc="menu_item_22_desc">
+          <div>
+            <h3>كوكتيل فاخر</h3>
+            <p>مزيج فواكه موسمية وعصائر طازجة بنكهة راقية.</p>
+          </div>
+          <strong>58EGP</strong>
+        </article>
+        <article class="menu-item" data-category="desserts" data-name="تشيز كيك بلوبيري" data-i18n-title="menu_item_23_title" data-i18n-desc="menu_item_23_desc">
+          <div>
+            <h3>تشيز كيك بلوبيري</h3>
+            <p>كريمة جبن ناعمة وقاعدة بسكويت مع طبقة من التوت.</p>
+          </div>
+          <strong>40EGP</strong>
+        </article>
+        <article class="menu-item" data-category="fastfood" data-name="تاكو دجاج" data-i18n-title="menu_item_24_title" data-i18n-desc="menu_item_24_desc">
+          <div>
+            <h3>تاكو دجاج</h3>
+            <p>قطع دجاج متبلة مع خضار طازجة وصلصة التوابل الخاصة.</p>
+          </div>
+          <strong>65EGP</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="offers" class="section offers-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="offers_label">العروض الخاصة</span>
+        <h2 data-i18n="offers_title">تجاربنا المميزة اليوم</h2>
+      </div>
+      <div class="container offers-grid">
+        <article class="offer-card">
+          <h3 data-i18n="offer_1_title">عشاء ذكريات</h3>
+          <p data-i18n="offer_1_desc">قائمة من 4 أطباق تشمل مقبلات، طبق رئيسي، حلوى ومشروب مميز.</p>
+          <span class="offer-price">185EGP</span>
+        </article>
+        <article class="offer-card">
+          <h3 data-i18n="offer_2_title">بوفيه المشاوي</h3>
+          <p data-i18n="offer_2_desc">مجموعة مشاوي ممتازة تقدم مع السلطات والصلصات الخاصة.</p>
+          <span class="offer-price">220EGP</span>
+        </article>
+        <article class="offer-card">
+          <h3 data-i18n="offer_3_title">طاولة ضيافة</h3>
+          <p data-i18n="offer_3_desc">تجربة طعام لعائلة أو مجموعة مع أطباق متنوعة وكبيرة.</p>
+          <span class="offer-price">420EGP</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section gallery-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="gallery_label">المعرض</span>
+        <h2 data-i18n="gallery_title">لقطات من أجوائنا وأطباقنا</h2>
+      </div>
+      <div class="container gallery-grid">
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" data-caption="جلسة عائلية ساحرة" data-i18n-caption="gallery_caption_1">
+          <img src="pexels-ron-lach-8879363.jpg" alt="جلسة عائلية" loading="lazy">
+        </button>
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1498579809087-ef1e558fd1a7?auto=format&fit=crop&w=900&q=80" data-caption="طبق مشاوي فاخر" data-i18n-caption="gallery_caption_2">
+          <img src="pexels-jinshu-pulpatta-2151876856-34434561.jpg" alt="طبق مشاوي" loading="lazy">
+        </button>
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1504674900247-0867df9cc836?auto=format&fit=crop&w=900&q=80" data-caption="الطعام المعد بحب" data-i18n-caption="gallery_caption_3">
+          <img src="pexels-furkanalakoc-31587833.jpg" alt="طبخ" loading="lazy">
+        </button>
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=900&q=80" data-caption="جلسة رومانسية هادئة" data-i18n-caption="gallery_caption_4">
+          <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=600&q=80" alt="جلسة رومانسية" loading="lazy">
+        </button>
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80" data-caption="حلوى مميزة لأمسية خاصة" data-i18n-caption="gallery_caption_5">
+          <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80" alt="حلوى" loading="lazy">
+        </button>
+        <button class="gallery-item" type="button" data-image="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=900&q=80" data-caption="إطلالة مثالية في المطعم" data-i18n-caption="gallery_caption_6">
+          <img src="https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?auto=format&fit=crop&w=600&q=80" alt="إطلالة المطعم" loading="lazy">
+        </button>
+      </div>
+      <div class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="إغلاق">×</button>
+        <img src="" alt="" class="lightbox-image">
+        <p class="lightbox-caption"></p>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="testimonials_label">آراء العملاء</span>
+        <h2 data-i18n="testimonials_title">تجربة زوارنا هي أولويتنا</h2>
+      </div>
+      <div class="container testimonials-slider">
+        <article class="testimonial-card active" data-i18n-name="testimonial_person_1" data-i18n-text="testimonial_text_1">
+          <p>تجربة ممتازة من البداية للنهاية. الأجواء جميلة والطعام لذيذ للغاية.</p>
+          <strong>سارة العلي</strong>
+        </article>
+        <article class="testimonial-card" data-i18n-name="testimonial_person_2" data-i18n-text="testimonial_text_2">
+          <p>أفضل مطعم في المدينة للحفلات العائلية. الخدمة سريعة ومحترفة.</p>
+          <strong>محمد حمد</strong>
+        </article>
+        <article class="testimonial-card" data-i18n-name="testimonial_person_3" data-i18n-text="testimonial_text_3">
+          <p>الأطباق جميلة ومتوازنة، والتجربة كلها كانت راقية ومريحة.</p>
+          <strong>ليلى فؤاد</strong>
+        </article>
+      </div>
+      <div class="testimonials-controls">
+        <button class="testimonial-prev" aria-label="السابق">&#10094;</button>
+        <button class="testimonial-next" aria-label="التالي">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq-section">
+      <div class="container section-header">
+        <span class="section-label" data-i18n="faq_label">الأسئلة الشائعة</span>
+        <h2 data-i18n="faq_title">إجابات سريعة على استفساراتك</h2>
+      </div>
+      <div class="container faq-list">
+        <article class="faq-item">
+          <button class="faq-question" type="button" data-i18n="faq_question_1">هل يمكنني الحجز عبر الإنترنت؟</button>
+          <div class="faq-answer">
+            <p data-i18n="faq_answer_1">نعم، يمكنك الحجز مباشرة من خلال نموذج الاتصال أو بالاتصال الهاتفي لمواعيد مرنة وسريعة.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" data-i18n="faq_question_2">هل تتوفر خيارات نباتية؟</button>
+          <div class="faq-answer">
+            <p data-i18n="faq_answer_2">نعم، لدينا مجموعة واسعة من الأطباق النباتية الطازجة والمميزة تصلح لجميع الأذواق.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" data-i18n="faq_question_3">هل يوجد موقف سيارات قريب؟</button>
+          <div class="faq-answer">
+            <p data-i18n="faq_answer_3">يتوفر موقف سيارات بالقرب من المطعم، كما يمكننا توجيهك لأفضل خيارات الوقوف عند التواصل.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" data-i18n="faq_question_4">ما هي ساعات العمل؟</button>
+          <div class="faq-answer">
+            <p data-i18n="faq_answer_4">نفتح يومياً من الساعة 12 ظهراً حتى 12 بعد منتصف الليل لتلبية كل احتياجاتك.</p>
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-question" type="button" data-i18n="faq_question_5">هل تقدمون خدمة التوصيل؟</button>
+          <div class="faq-answer">
+            <p data-i18n="faq_answer_5">نعم، نوفر خدمة التوصيل إلى المناطق المحيطة عبر شركائنا المحليين.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-details">
+          <span class="section-label" data-i18n="contact_label">اتصل بنا</span>
+          <h2 data-i18n="contact_title">نحن هنا لخدمتك</h2>
+          <p data-i18n="contact_desc">احجز طاولتك أو أرسل استفسارك وسنعود إليك بسرعة مع أفضل الخيارات المتاحة.</p>
+          <div class="contact-info">
+            <div>
+              <strong data-i18n="contact_address_title">العنوان</strong>
+              <p data-i18n="contact_address">مصر,الرحاب,القاهرة</p>
+            </div>
+            <div>
+              <strong data-i18n="contact_phone_title">الهاتف</strong>
+              <p>010xxxxxxxx</p>
+            </div>
+            <div>
+              <strong data-i18n="contact_email_title">البريد الإلكتروني</strong>
+              <p>info@YourBrand-restaurant.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-card">
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <label for="name" data-i18n="contact_name_label">الاسم الكامل</label>
+              <input id="name" name="name" type="text" required data-i18n-placeholder="contact_name_placeholder">
+            </div>
+            <div class="form-row">
+              <label for="email" data-i18n="contact_email_label">البريد الإلكتروني</label>
+              <input id="email" name="email" type="email" required data-i18n-placeholder="contact_email_placeholder">
+            </div>
+            <div class="form-row">
+              <label for="phone" data-i18n="contact_phone_label">رقم الهاتف</label>
+              <input id="phone" name="phone" type="tel" pattern="[0-9+\-\s]{6,}" required data-i18n-placeholder="contact_phone_placeholder">
+            </div>
+            <div class="form-row">
+              <label for="message" data-i18n="contact_message_label">رسالتك</label>
+              <textarea id="message" name="message" rows="5" required data-i18n-placeholder="contact_message_placeholder"></textarea>
+            </div>
+            <button type="submit" class="button-primary" data-i18n="contact_submit">أرسل الآن</button>
+            <p class="form-feedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+      <div class="container map-card">
+        <iframe title="خريطة الموقع" src="https://www.google.com/maps?q=الرحاب,القاهرة,+مصر&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#hero" class="brand-footer"><strong>YourBrand</strong> مطعم</a>
+        <p data-i18n="footer_desc">مزيج من الفخامة، النكهة والإتقان داخل كل وجبة.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_links_title">روابط سريعة</h4>
+        <ul>
+          <li><a href="#features" data-i18n="nav_features">المميزات</a></li>
+          <li><a href="#menu" data-i18n="nav_menu">القائمة</a></li>
+          <li><a href="#gallery" data-i18n="nav_gallery">المعرض</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">اتصل بنا</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_contact_title">ابقَ على تواصل</h4>
+        <p data-i18n="footer_address">القاهرة,الرحاب</p>
+        <p>info@YourBrand-restaurant.com</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p data-i18n="footer_copyright">جميع الحقوق محفوظة © 2026 مطعم YourBrand</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
