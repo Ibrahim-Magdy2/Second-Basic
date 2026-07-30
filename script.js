@@ -662,7 +662,7 @@ function init() {
 ${messageInput.value}`;
 
   window.open(
-    `https://wa.me/201014053954?text=${encodeURIComponent(text)}`,
+    `https://wa.me/2010xxxxxxxxx?text=${encodeURIComponent(text)}`,
     "_blank"
   );
 
