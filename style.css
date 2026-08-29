@@ -874,10 +874,6 @@ button, input, textarea {
     gap: 8px;
   }
 
-  .mobile-menu {
-    display: flex;
-  }
-
   .hero-controls,
   .testimonials-controls {
     inset-inline-start: 12px;
